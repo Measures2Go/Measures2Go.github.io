@@ -22,7 +22,6 @@
 ',
 				options:
 				[
-			
 					'(3) Normal: Walks 20', no assistive devices, good sped, no evidence for imbalance, normal gait pattern',
 					'(2) Mild Impairment: Walks 20', uses assistive devices, slower speed, mild gait deviations.',
 					'(1) Moderate Impairment: Walks 20', slow speed, abnormal gait pattern, evidence for imbalance.',
