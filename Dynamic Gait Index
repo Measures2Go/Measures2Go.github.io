@@ -34,7 +34,6 @@
 				instructions: 'Please stand for two minutes without holding on.',
 				options:
 				[
-					'(4) able to stand safely for 2 minutes',
 					'(3) able to stand 2 minutes with supervision',
 					'(2) able to stand 30 seconds unsupported',
 					'(1) needs several tries to stand 30 seconds unsupported',
