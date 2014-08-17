@@ -17,11 +17,10 @@
 		
 			// Item 1
 			{
-				title: 'SITTING TO STANDING',
-				instructions: 'Please stand up. Try not to use your hand for support.',
+				title: 'Gait level surface',
+				instructions: 'Walk at your normal speed from here to the next mark (20')',
 				options:
 				[
-					'(4) able to stand without using hands and stabilize independently',
 					'(3) able to stand independently using hands',
 					'(2) able to stand using hands after several tries',
 					'(1) needs minimal aid to stand or to stabilize',
