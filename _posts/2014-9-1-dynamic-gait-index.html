@@ -1,0 +1,145 @@
+---
+title: Dynamic Gait Index
+layout: questionnaire
+---
+
+<script>
+	var data = 
+	[
+	
+		// Item 1
+		{
+			title: 'Gait level surface',
+			instructions: 'Walk at your normal speed form here to the next mark (20 feet).',
+			options:
+			[
+				'(3) Normal: Walks 20 feet, no assistive devices, good speed, no evidence for imbalance, normal gait pattern.',
+				'(2) Mild Impairment: Walks 20 feet, uses assistive devices, slower speed, mild gait deviations.',
+				'(1) Moderate Impairment: Walks 20 feet, slow speed, abnormal gait pattern, evidence for imbalance. ',
+				'(0) Severe Impairment: Cannot walk 20 feet without assistance, severe gait deviations or imbalance. '
+			]
+		},
+	
+		// Item 2
+		{
+			title: 'Change in gait speed',
+			instructions: 'Begin walking at your normal pace (for 5 feet) when I tell you "go," walk as fast as you can (for 5 feet). When I tell you "slow," walk as slowly as you can (for 5 feet). ',
+			options:
+			[
+				'(3) Normal: Able to smoothly change walking speed without loss of balance or gait deviation. Shows a significant difference in walking speeds between normal, fast and slow speeds. ',
+				'(2) Mild Impairment: Is able to change speed but demonstrates mild gait deviations, or not gait deviations but unable to achieve a significant change in velocity, or uses an assistive device. ',
+				'(1) Moderate Impairment: Makes only minor adjustments to walking speed, or accomplishes a change in speed with significant gait deviations, or changes speed but has significant gait deviations, or changes speed but loses balance but is able to recover and continue walking.  ',
+				'(0) Severe Impairment: Cannot change speeds, or loses balance and has to reach for wall or be caught. '
+			]
+		},
+
+		// Item 3
+		{
+			title: 'Gait with horizontal head turns',
+			instructions: 'Begin walking at your normal pace. When I tell you to "look right," keep walking straight, but turn your head to the right. Keep looking to the right until I tell you, "look left," then keep walking straight and turn your head to the left. Keep your head to the left until I tell you "look straight," then keep walking straight, but return your head to the center. ',
+			options:
+			[
+				'(3) Normal: Performs head turns smoothly with no change in gait. ',
+				'(2) Mild Impairment: Performs head turns smoothly with slight change in gait velocity, i.e. minor disruption to smooth gait path or uses walking aid. ',
+				'(1) Moderate Impairment: Performs head turns with moderate change in gait velocity, slows down, staggers but recovers, can continue to walk. ',
+				'(0) Severe Impairment: Performs task with severe disruption of gait, i.e. staggers outside 15 inch path, loses balance, stops, reaches for wall.  '
+			]
+		},
+
+		// Item 4
+		{
+			title: 'Gait with vertical head turns',
+			instructions: 'Begin walking at your normal pace. When I tell you to "look up," keep walking straight, but tip your head up. Keep looking up until I tell you, "look down," then keep walking straight and tip your head down. Keep your head down until I tell you "look straight," then keep walking straight, but return your head to the center. ',
+			options:
+			[
+				'(3) Normal: Performs head turns smoothly with no change in gait. ',
+				'(2) Mild Impairment: Performs head turns smoothly with slight change in gait velocity, i.e. minor disruption to smooth gait path or uses walking aid. ',
+				'(1) Moderate Impairment: Performs head turns with moderate change in gait velocity, slows down, staggers but recovers, can continue to walk.  ',
+				'(0) Severe Impairment: Performs task with severe disruption of gait, i.e. staggers outside 15 inch path, loses balance, stops, reaches for wall.  '
+			]
+		},
+
+		// Item 5
+		{
+			title: 'Gait and pivot turn',
+			instructions: 'Begin walking at your normal pace. When I tell you "turn and stop," turn as quickly as you can to face the opposite direction and stop. ',
+			options:
+			[
+				'(3) Normal: Pivot turns safely within 3 seconds and stops quickly with no loss of balance. ',
+				'(2) Mild Impairment: Pivot turns safely in greater than 3 seconds and stops with no loss of balance. ',
+				'(1) Moderate Impairment: Turns slowly, requires verbal cueing, requires several small steps to catch balance following turn and stop. ',
+				'(0) Severe Impairment: Cannot turn safely, requires assistance to turn and stop.  '
+			]
+		},
+
+		// Item 6
+		{
+			title: 'Step over obstacle',
+			instructions: 'Begin walking at your normal speed. When you come to the shoebox, step over it, not around it, and keep walking. ',
+			options:
+			[
+				'(3) Normal: Is able to step over the box without changing gait speed, no evidence of imbalance. ',
+				'(2) Mild Impairment: Is able to step over box, but must slow down and adjust steps to clear box safely. ',
+				'(1) Moderate Impairment: Is able to step over box but must stop, then step over. May require verbal cueing.  ',
+				'(0) Severe Impairment: Cannot perform without assistance.  '
+			]
+		},
+
+		// Item 7
+		{
+			title: 'Step around obstacles',
+			instructions: 'Begin walking at normal speed. When you come to the first cone (about 6 feet away), walk around the right side of it. When you come to the second cone (6 feet past first cone), walk around it to the left. ',
+			options:
+			[
+				'(3) Normal: Is able to walk around cones safely without changing gait speed; no evidence of imbalance. ',
+				'(2) Mild Impairment: Is able to step around both cones, but must slow down and adjust steps to clear cones. ',
+				'(1) Moderate Impairment: Is able to clear cones but must significantly slow speed to accomplish task, or requires verbal cueing.  ',
+				'(0) Severe Impairment: Unable to clear cones, walks into one or both cones, or requires physical assistance.  '
+			]
+		},
+
+		// Item 8
+		{
+			title: 'Steps',
+			instructions: 'Walk up these stairs as you would at home, i.e. using the railing if necessary. At the top, turn around and walk down. ',
+			options:
+			[
+				'(3) Normal: Alternating feet, no rail. ',
+				'(2) Mild Impairment: Alternating feet, must use rail. ',
+				'(1) Moderate Impairment: Two feet to a stair, must use rail.  ',
+				'(0) Severe Impairment: Cannot do safely.  '
+			]
+		},
+	];
+	
+	$(function() {
+		data.forEach(function(entry, entryIndex) {
+			var d = '<div class="ui-corner-all question-section"><div class="ui-bar ui-bar-a"><h3>' + (entryIndex + 1) + ': ' + entry.title + '</h3></div>' +
+				    '<div class="ui-body ui-body-a"><fieldset data-role="controlgroup"><legend><h4>INSTRUCTIONS: ' + entry.instructions + '</h4></legend>';
+			entry.options.forEach(function(option, optionIndex) {
+				var optionVal = (entry.options.length - 1 - optionIndex);
+				d += '<input type="radio" name="radio-choice-v-' + entryIndex + '" id="radio-choice-v-' + entryIndex + '' + optionIndex + '" value="' + optionVal + '">' +
+					 '<label for="radio-choice-v-' + entryIndex + '' + optionIndex + '">' + option + '</label>';
+			});
+		
+			d += '</fieldset></div></div>';
+		
+			$('#form').append(d).trigger('create');
+		});
+		
+		$('input:radio').change(function() {
+			var val = 0;
+			$('input:radio:checked').each(function(i, el) {
+				val += parseInt($(el).val(), 10);
+			});
+			
+			if (val > 22)
+				$('#summary').text(val + ': Patient is a safe ambulator');
+			else if (val < 19)
+				$('#summary').text(val + ': This score is predictive of falls in the elderly');
+			else if (val > 18)
+				$('#summary').text(val + ': This score is below that of a safe ambulator but above that of an elderly patient at fall risk. ');
+		});
+	});
+
+</script>
