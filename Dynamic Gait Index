@@ -17,15 +17,15 @@
 		
 			// Item 1
 			{
-				title: 'Gait level surface',
-				instructions: 'Walk at your normal speed from here to the next mark (20'). Grading: Mark the lowest category that applies.'
-',
+				title: 'SITTING TO STANDING',
+				instructions: 'Please stand up. Try not to use your hand for support.',
 				options:
 				[
-					'(3) Normal: Walks 20', no assistive devices, good sped, no evidence for imbalance, normal gait pattern',
-					'(2) Mild Impairment: Walks 20', uses assistive devices, slower speed, mild gait deviations.',
-					'(1) Moderate Impairment: Walks 20', slow speed, abnormal gait pattern, evidence for imbalance.',
-					'(0) Severe Impairment: Cannot walk 20' without assistance, severe gait deviations or imbalance.'
+					'(4) able to stand without using hands and stabilize independently',
+					'(3) able to stand independently using hands',
+					'(2) able to stand using hands after several tries',
+					'(1) needs minimal aid to stand or to stabilize',
+					'(0) needs moderate or maximal assist to stand'
 				]
 			},
 			
