@@ -145,7 +145,7 @@
 					$('#summary').text(val + ': Patient is a safe ambulator');
 				else if (val < 19)
 					$('#summary').text(val + ': This score is predictive of falls in the elderly');
-				else if (val > 19)
+				else if (val > 18)
 					$('#summary').text(val + ': This score is below that of a safe ambulator but above that of an elderly patient at fall risk. ');
 			});
 		});
