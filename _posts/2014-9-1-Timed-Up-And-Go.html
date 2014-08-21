@@ -1,162 +1,120 @@
----
-title: Timed Up and Go (In Progress)
-layout: questionnaire
----
-<script>
-	var data = 
-	[
+<!doctype html>
+<html>
+<head>
+    <title>Timed Up and Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+	<style>
+		h1 { margin-top: 2em; }
+		.question-section { margin-bottom: 1em; }
+	</style>
 	
-		// Item 1
-		{
-			title: 'Gait Level Surface',
-			instructions: 'Walk at your normal speed from here to the next mark (6 m [20 ft]). ', 
-			options:
-			[
-				'(3) Normal—Walks 6 m (20 ft) in less than 5.5 seconds, no assistive devices good speed, no evidence for imbalance, normal gait pattern, deviates no more than 15.24 cm (6 in) outside of the 30.48-cm (12-in) walkway width. ',
-				'(2) Mild impairment—Walks 6 m (20 ft) in less than 7 seconds but greater than 5.5 seconds, uses assistive device, slower speed, mild gait deviations, or deviates 15.24–25.4 cm (6–10 in) outside of the 30.48-cm (12-in) walkway width. ',
-				'(1) Moderate impairment—Walks 6 m (20 ft), slow speed, abnormal gait pattern, evidence for imbalance, or deviates 25.4– 38.1 cm (10–15 in) outside of the 30.48-cm (12-in) walkway width. Requires more than 7 seconds to ambulate 6 m (20 ft). ',
-				'(0) Severe impairment—Cannot walk 6 m (20 ft) without assistance, severe gait deviations or imbalance, deviates greater than 38.1 cm (15 in) outside of the 30.48-cm (12-in) walkway width or reaches and touches the wall. '
-			]
-		},
+	<script>
+		var data = 
+		[
 		
-		// Item 2
-		{
-			title: 'Change in Gait Speed',
-			instructions: 'Begin walking at your normal pace (for 1.5 m [5 ft]). When I tell you “go,” walk as fast as you can (for 1.5 m [5 ft]). When I tell you “slow,” walk as slowly as you can (for 1.5 m [5 ft]). ', 
-			options:
-			[
-				'(3) Normal—Able to smoothly change walking speed without loss of balance or gait deviation. Shows a significant difference in walking speeds between normal, fast, and slow speeds. Deviates no more than 15.24 cm (6 in) outside of the 30.48-cm (12-in) walkway width. ',
-				'(2) Mild impairment—Is able to change speed but demonstrates mild gait deviations, deviates 15.24–25.4 cm (6–10 in) outside of the 30.48-cm (12-in) walkway width, or no gait deviations but unable to achieve a significant change in velocity, or uses an assistive device. ',
-				'(1) Moderate impairment—Makes only minor adjustments to walking speed, or accomplishes a change in speed with significant gait deviations, deviates 25.4–38.1 cm (10–15 in) outside the 30.48-cm (12-in) walkway width, or changes speed but loses balance but is able to recover and continue walking. ',
-				'(0) Severe impairment—Cannot change speeds, deviates greater than 38.1 cm (15 in) outside 30.48-cm (12-in) walkway width, or loses balance and has to reach for wall or be caught. '
-			]
-		},
-		// Item 3
-		{
-			title: 'Gait with Horizontal Head Turns',
-			instructions: 'Instructions: Walk from here to the next mark 6 m (20 ft) away. Begin walking at your normal pace. Keep walking straight; after 3 steps, turn your head to the right and keep walking straight while looking to the right. After 3 more steps, turn your head to the left and keep walking straight while looking left. Continue alternating looking right and left every 3 steps until you have completed 2 repetitions in each direction. ', 
-			options:
-			[
-				'(3) Normal—Performs head turns smoothly with no change in gait. Deviates no more than 15.24 cm (6 in) outside 30.48-cm (12-in) walkway width. ',
-				'(2) Mild impairment—Performs head turns smoothly with slight change in gait velocity (eg, minor disruption to smooth gait path), deviates 15.24–25.4 cm (6–10 in) outside 30.48-cm (12-in) walkway width, or uses an assistive device. ',
-				'(1) Moderate impairment—Performs head turns with moderate change in gait velocity, slows down, deviates 25.4–38.1 cm (10–15 in) outside 30.48-cm (12-in) walkway width but recovers, can continue to walk. ',
-				'(0) Severe impairment—Performs task with severe disruption of gait (eg, staggers 38.1 cm [15 in] outside 30.48-cm (12-in) walkway width, loses balance, stops, or reaches for wall). '
-			]
-		},
-		// Item 4
-		{
-			title: 'Gait with Vertical Head Turns',
-			instructions: 'Walk from here to the next mark (6 m [20 ft]). Begin walking at your normal pace. Keep walking straight; after 3 steps, tip your head up and keep walking straight while looking up. After 3 more steps, tip your head down, keep walking straight while looking down. Continue alternating looking up and down every 3 steps until you have completed 2 repetitions in each direction. ', 
-			options:
-			[
-				'(3) Normal—Performs head turns with no change in gait. Deviates no more than 15.24 cm (6 in) outside 30.48-cm (12-in) walkway width. ',
-				'(2) Mild impairment—Performs task with slight change in gait velocity (eg, minor disruption to smooth gait path), deviates 15.24–25.4 cm (6–10 in) outside 30.48-cm (12-in) walkway width or uses assistive device. ',
-				'(1) Moderate impairment—Performs task with moderate change in gait velocity, slows down, deviates 25.4–38.1 cm (10–15 in) outside 30.48-cm (12-in) walkway width but recovers, can continue to walk. ',
-				'(0) Severe impairment—Performs task with severe disruption of gait (eg, staggers 38.1 cm [15 in] outside 30.48-cm (12-in) walkway width, loses balance, stops, reaches for wall). '
-			]
-		},
-		// Item 5
-		{
-			title: 'Gait and Pivot Turn',
-			instructions: 'Begin with walking at your normal pace. When I tell you, “turn and stop,” turn as quickly as you can to face the opposite direction and stop. ', 
-			options:
-			[
-				'(3) Normal—Pivot turns safely within 3 seconds and stops quickly with no loss of balance. ',
-				'(2) Mild impairment—Pivot turns safely in 3 seconds and stops with no loss of balance, or pivot turns safely within 3 seconds and stops with mild imbalance, requires small steps to catch balance. ',
-				'(1) Moderate impairment—Turns slowly, requires verbal cueing, or requires several small steps to catch balance following turn and stop. ',
-				'(0) Severe impairment—Cannot turn safely, requires assistance to turn and stop. '
-			]
-		},
-		// Item 6
-		{
-			title: 'Step Over Obstacle',
-			instructions: 'Instructions: Begin walking at your normal speed. When you come to the shoe box, step over it, not around it, and keep walking. ', 
-			options:
-			[
-				'(3) Normal—Is able to step over 2 stacked shoe boxes taped together (22.86 cm [9 in] total height) without changing gait speed; no evidence of imbalance. ',
-				'(2) Mild impairment—Is able to step over one shoe box (11.43 cm [4.5 in] total height) without changing gait speed; no evidence of imbalance. ',
-				'(1) Moderate impairment—Is able to step over one shoe box (11.43 cm [4.5 in] total height) but must slow down and adjust steps to clear box safely. May require verbal cueing. ',
-				'(0) Severe impairment—Cannot perform without assistance. '
-			]
-		},
-		// Item 7
-		{
-			title: 'Gait with Narrow Base of Support',
-			instructions: 'Walk on the floor with arms folded across the chest, feet aligned heel to toe in tandem for a distance of 3.6 m [12 ft]. The number of steps taken in a straight line are counted for a maximum of 10 steps. ', 
-			options:
-			[
-				'(3) Normal—Walks 6 m (20 ft), no assistive devices, good speed, no evidence of imbalance, normal gait pattern, deviates no more than 15.24 cm (6 in) outside 30.48-cm (12-in) walkway width. Ambulates 6 m (20 ft) in less than 7 seconds. ',
-				'(2) Mild impairment—Ambulates 7–9 steps. ',
-				'(1) Moderate impairment—Ambulates 4–7 steps. ',
-				'(0) Severe impairment—Ambulates less than 4 steps heel to toe or cannot perform without assistance. '
-			]
-		},
-		// Item 8
-		{
-			title: 'Gait with Eyes Closed',
-			instructions: 'Walk at your normal speed from here to the next mark (6 m [20 ft]) with your eyes closed. ', 
-			options:
-			[
-				'(3) Normal- Walks 6 meters (20 feet) in less than 5.5 seconds, no assistive devices, good speed, no evidence for imbalance, normal gait pattern, deviates no more than 15.24 cm (6 in.) outside of the 30.48 cm (12 in.) walkway width. ',
-				'(2) Mild impairment—Walks 6 m (20 ft), uses assistive device, slower speed, mild gait deviations, deviates 15.24–25.4 cm (6–10 in) outside 30.48-cm (12-in) walkway width. Ambulates 6 m (20 ft) in less than 9 seconds but greater than 7 seconds. ',
-				'(1) Moderate impairment—Walks 6 m (20 ft), slow speed, abnormal gait pattern, evidence for imbalance, deviates 25.4–38.1 cm (10–15 in) outside 30.48-cm (12-in) walkway width. Requires more than 9 seconds to ambulate 6 m (20 ft). ',
-				'(0) Severe impairment—Cannot walk 6 m (20 ft) without assistance, severe gait deviations or imbalance, deviates greater than 38.1 cm (15 in) outside 30.48-cm (12-in) walkway width or will not attempt task. '
-			]
-		},
-		// Item 9
-		{
-			title: 'Gait Level Surface',
-			instructions: 'Walk backwards until I tell you to stop. ', 
-			options:
-			[
-				'(3) Normal—Walks 6 m (20 ft), no assistive devices, good speed, no evidence for imbalance, normal gait pattern, deviates no more than 15.24 cm (6 in) outside 30.48-cm (12-in) walkway width. ',
-				'(2) Mild impairment—Walks 6 m (20 ft), uses assistive device, slower speed, mild gait deviations, deviates 15.24–25.4 cm (6–10 in) outside 30.48-cm (12-in) walkway width. ',
-				'(1) Moderate impairment—Walks 6 m (20 ft), slow speed, abnormal gait pattern, evidence for imbalance, deviates 25.4–38.1 cm (10–15 in) outside 30.48-cm (12-in) walkway width. ',
-				'(0) Severe impairment—Cannot walk 6 m (20 ft) without assistance, severe gait deviations or imbalance, deviates greater than 38.1 cm (15 in) outside 30.48-cm (12-in) walkway width or will not attempt task. '
-			]
-		},
-		// Item 10
-		{
-			title: 'Steps',
-			instructions: 'Walk up these stairs as you would at home (ie, using the rail if necessary). At the top turn around and walk down.', 
-			options:
-			[
-				'(3) Normal—Alternating feet, no rail. ',
-				'(2) Mild impairment—Alternating feet, must use rail. ',
-				'(1) Moderate impairment—Two feet to a stair; must use rail. ',
-				'(0) Severe impairment—Cannot do safely. '
-			]
-		},
-	];
-	
-	$(function() {
-		data.forEach(function(entry, entryIndex) {
-			var d = '<div class="ui-corner-all question-section"><div class="ui-bar ui-bar-a"><h3>' + (entryIndex + 1) + ': ' + entry.title + '</h3></div>' +
-				    '<div class="ui-body ui-body-a"><fieldset data-role="controlgroup"><legend><h4>INSTRUCTIONS: ' + entry.instructions + '</h4></legend>';
-			entry.options.forEach(function(option, optionIndex) {
-				var optionVal = (entry.options.length - 1 - optionIndex);
-				d += '<input type="radio" name="radio-choice-v-' + entryIndex + '" id="radio-choice-v-' + entryIndex + '' + optionIndex + '" value="' + optionVal + '">' +
-					 '<label for="radio-choice-v-' + entryIndex + '' + optionIndex + '">' + option + '</label>';
-			});
+			// Item 1
+			{
+				title: 'SITTING TO STANDING',
+				instructions: 'Please stand up. Try not to use your hand for support.',
+				options:
+				[
+					'(4) able to stand without using hands and stabilize independently',
+					'(3) able to stand independently using hands',
+					'(2) able to stand using hands after several tries',
+					'(1) needs minimal aid to stand or to stabilize',
+					'(0) needs moderate or maximal assist to stand'
+				]
+			},
+			
+			// Item 2
+			{
+				title: 'STANDING UNSUPPORTED',
+				instructions: 'Please stand for two minutes without holding on.',
+				options:
+				[
+					'(4) able to stand safely for 2 minutes',
+					'(3) able to stand 2 minutes with supervision',
+					'(2) able to stand 30 seconds unsupported',
+					'(1) needs several tries to stand 30 seconds unsupported',
+					'(0) unable to stand 30 seconds unsupported'
+				]
+			},
+
+			},
+
+			// Item 14
+			{
+				title: 'STANDING ON ONE LEG',
+				instructions: 'Stand on one leg as long as you can without holding on',
+				options:
+				[
+					'(4) able to lift leg independently and hold > 10 seconds',
+					'(3) able to lift leg independently and hold 5-10 seconds',
+					'(2) able to lift leg independently and hold = 3 seconds',
+					'(1) tries to lift leg unable to hold 3 seconds but remains standing independently.',
+					'(0) unable to try of needs assist to prevent fall'
+				]
+			},
+		];
 		
-			d += '</fieldset></div></div>';
-		
-			$('#form').append(d).trigger('create');
-		});
-		
-		$('input:radio').change(function() {
-			var val = 0;
-			$('input:radio:checked').each(function(i, el) {
-				val += parseInt($(el).val(), 10);
+		$(function() {
+			data.forEach(function(entry, entryIndex) {
+				var d = '<div class="ui-corner-all question-section"><div class="ui-bar ui-bar-a"><h3>' + (entryIndex + 1) + ': ' + entry.title + '</h3></div>' +
+					    '<div class="ui-body ui-body-a"><fieldset data-role="controlgroup"><legend><h4>INSTRUCTIONS: ' + entry.instructions + '</h4></legend>';
+				entry.options.forEach(function(option, optionIndex) {
+					var optionVal = (entry.options.length - 1 - optionIndex);
+					d += '<input type="radio" name="radio-choice-v-' + entryIndex + '" id="radio-choice-v-' + entryIndex + '' + optionIndex + '" value="' + optionVal + '">' +
+						 '<label for="radio-choice-v-' + entryIndex + '' + optionIndex + '">' + option + '</label>';
+				});
+			
+				d += '</fieldset></div></div>';
+			
+				$('#form').append(d).trigger('create');
 			});
 			
-			if (val < 23)
-				$('#summary').text(val + ': Patient is a fall risk (<22) ');
-			else if (val < 20)
-				$('#summary').text(val + ': Patient is at increased likelihood of unexplained fall in next 6 months (<21) ');
-			else
-				$('#summary').text(val + ': Patient is above fall risk cutoff (22). Refer to age-controlled normative data. ');
+			$('input:radio').change(function() {
+				var val = 0;
+				$('input:radio:checked').each(function(i, el) {
+					val += parseInt($(el).val(), 10);
+				});
+				
+				if (val > 40)
+					$('#summary').text(val + ': Patient is at a low fall risk (41-56)');
+				else if (val > 20)
+					$('#summary').text(val + ': Patient is at a medium fall risk (21-40)');
+				else if (val <21)
+					$('#summary').text(val + ': Patient is at a high fall risk (0-20)');
+			});
 		});
-	});
+	
+	</script>
+</head>
+<body>
+    <div data-role="page">
+ 
+        <div data-role="header">
+            <h1>Question</h1>
+        </div><!-- /header -->
+ 
+        <div data-role="content">
+			<form>
+				<div id="form"></div>
 
-</script>
+				<div class="ui-corner-all">
+				  <div class="ui-bar ui-bar-a">
+					<h3>Summary</h3>
+				  </div>
+				  <div class="ui-body ui-body-a">
+					<h2 id="summary"></h2>
+				  </div>
+				</div>
+
+				<input type="button" value="Save Data">
+			</form>
+        </div><!-- /content -->
+    </div><!-- /page -->
+</body>
+</html>
