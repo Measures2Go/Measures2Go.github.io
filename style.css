@@ -1,4 +1,651 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+Hudson&#039;s Bay Company</title>
 
-h1 { margin-top: 2em; }
+<link rel="stylesheet" href="http://www3.hbc.com/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=2.6.3" type="text/css" media="all" />
+  
 
-.question-section { margin-bottom: 1em; }
+    <!-- Embed Google Web Fonts Via API -->
+    <script type="text/javascript">
+          WebFontConfig = {
+            google: { families: [ 
+                    "Bitter",
+                    "Bitter",                   
+                    "Droid Sans",                   
+                    "Droid Sans", 
+                    "PT Sans Narrow"] }
+          };
+          (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+          })();
+    </script>
+
+<link href="http://www3.hbc.com/wp-content/themes/extranews/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--<link href="" rel="stylesheet" type="text/css" media="all" />-->
+<!--Site Layout -->
+<link rel="alternate" type="application/rss+xml" title="Hudson&#039;s Bay Company &raquo; Feed" href="http://www3.hbc.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hudson&#039;s Bay Company &raquo; Comments Feed" href="http://www3.hbc.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Hudson&#039;s Bay Company &raquo; HBC Comments Feed" href="http://www3.hbc.com/hbc/feed/" />
+<link rel='stylesheet' id='srfprettylistStyleSheets-css'  href='http://www3.hbc.com/wp-content/plugins/pretty-file-lister/styles/prettylinks.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-cms-nav-css-css'  href='http://www3.hbc.com/wp-content/plugins/wpml-cms-nav/res/css/navigation.css?ver=1.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cms-navigation-style-base-css'  href='http://www3.hbc.com/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css?ver=1.2.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='cms-navigation-style-css'  href='http://www3.hbc.com/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css?ver=1.2.7' type='text/css' media='screen' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='ie7-css'  href='http://www3.hbc.com/wp-content/themes/extranews/css/ie7.css?ver=ie7' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 8]>
+<link rel='stylesheet' id='ie8-css'  href='http://www3.hbc.com/wp-content/themes/extranews/css/ie8.css?ver=ie8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='visual-form-builder-css-css'  href='http://www3.hbc.com/wp-content/plugins/visual-form-builder/css/visual-form-builder.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vfb-jqueryui-css-css'  href='http://www3.hbc.com/wp-content/plugins/visual-form-builder/css/smoothness/jquery-ui-1.9.2.min.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_plugin_table_style_css-css'  href='http://www3.hbc.com/wp-content/plugins/easy-tables-vc/assets/css/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_plugin_themes_css-css'  href='http://www3.hbc.com/wp-content/plugins/easy-tables-vc/assets/css/themes.css?ver=3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='options-css'  href='http://www3.hbc.com/wp-content/themes/extranews/css/custom.css?ver=3.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://www3.hbc.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www3.hbc.com/?ver=pprjq1'></script>
+<script type='text/javascript' src='http://www3.hbc.com/wp-content/plugins/visual-form-builder/js/js_quicktags.js?ver=3.5'></script>
+<script type='text/javascript' src='http://www3.hbc.com/wp-includes/js/comment-reply.min.js?ver=3.5'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www3.hbc.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www3.hbc.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="stylesheet" href="http://www3.hbc.com/wp-content/themes/extranews/en_US.css" type="text/css" media="screen" /><meta name="generator" content="WordPress 3.5" />
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://www3.hbc.com/';</script>
+<script type="text/javascript" src="http://www3.hbc.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script>
+<meta name="generator" content="WPML ver:2.6.3 stt:1,4;0" />
+<link rel="alternate" hreflang="fr_FR" href="http://www3.hbc.com/fr/" />
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+
+
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+</head>
+<body class="home page page-id-9 page-parent page-template page-template-template-home-php chrome wpb-js-composer js-comp-ver-3.7.4 vc_responsive">
+
+<noscript>
+  <div class="alert">
+    <p>Please enable javascript to view this site.</p>
+  </div>
+</noscript>
+
+<!-- Markup to indicate logo preference for knowledge graph on right side of Google search results -->
+<div itemscope itemtype="http://schema.org/Organization" style="display:none;">
+  <a itemprop="url" href="http://www.hbc.com/">Home</a>
+  <img itemprop="logo" src="/wp-content/uploads/2013/09/HBC_FLAG.jpg" />
+</div>
+
+<!-- Preload Images 
+	================================================== -->
+<div id="preloaded-images"> 
+  <!-- Icons -->
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/icons/social/e_light.png" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/icons/social/fb_light.png" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/icons/social/g_light.png" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/icons/social/p_light.png" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/icons/social/tw_light.png" width="1" height="1" alt="Image" />
+  <!-- Slider Elements -->
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/linebg-fade.png" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/75black.png" width="1" height="1" alt="Image" />
+  <!--Loading Images -->
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/loading.gif" width="1" height="1" alt="Image" />
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/small-loading.gif" width="1" height="1" alt="Image" />
+  <!-- Arrows -->
+  <img src="http://www3.hbc.com/wp-content/themes/extranews/images/stars-over.png" width="1" height="1" alt="Image" />
+</div>
+
+<!-- Top Bar
+	================================================== -->
+ 
+<!-- Site Container
+  ================================================== -->
+<div class="sitecontainer container">
+<div class="container clearfix navcontainer">
+    <div class="logo">
+        <h1> <a href="http://www3.hbc.com">
+                        <img src="/wp-content/uploads/2013/09/hbcLogo.gif" alt="Hudson&#039;s Bay Company" />
+                        </a> 
+        </h1>
+    </div>
+	<div class="stock_quote">
+		Nov 17, 2014 12:10 PM ET <br/> TSX: HBC 20.01 <span style="color: #00BB00;">+0.01</span>	</div>
+    <div class="mobileclear"></div>
+    <div class="headerwidget">
+        <div class="logowidget">			
+			<div class="custom_menu">
+				<ul>
+										<li><a href="/contact-us/" style="text-decoration:none;">Contact Us</a> | </li>
+										<li><a href="http://www3.hbc.com/fr/" style="text-decoration:none;">Français</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+					
+        </div>
+    </div>
+    <div class="clear"></div>
+    	<div class="nav"><div class="clear"></div>
+        <!--Start Navigation-->
+                          <ul id="menu-main-nav-menu" class="sf-menu"><li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-78"><a href="http://www3.hbc.com/">MENU</a>
+<ul class="sub-menu">
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="http://www3.hbc.com/hbc/about-us/">About Us</a>
+	<ul class="sub-menu">
+		<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215"><a href="http://www.hbcheritage.ca/hbcheritage/home">Our History</a></li>
+		<li id="menu-item-1179" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1179"><a href="#">Stores</a>
+		<ul class="sub-menu">
+			<li id="menu-item-226" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-226"><a href="http://www.thebay.com">Hudson&#8217;s Bay</a></li>
+			<li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227"><a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor">Lord &#038; Taylor</a></li>
+			<li id="menu-item-228" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="http://www.homeoutfitters.com/en/index.html">Home Outfitters</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-1110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1110"><a href="http://investor.hbc.com/">Investor Relations</a>
+	<ul class="sub-menu">
+		<li id="menu-item-998" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-998"><a href="http://investor.hbc.com/releases.cfm">Press Releases</a></li>
+		<li id="menu-item-1118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1118"><a href="http://investor.hbc.com/events.cfm">Events and Presentations</a></li>
+		<li id="menu-item-1120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1120"><a href="http://investor.hbc.com/governance.cfm">Corporate Governance</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1121"><a href="http://investor.hbc.com/management.cfm">Leadership</a></li>
+			<li id="menu-item-1123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123"><a href="http://investor.hbc.com/directors.cfm">Board of Directors</a></li>
+			<li id="menu-item-1124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1124"><a href="http://investor.hbc.com/committees.cfm">Committee Composition</a></li>
+			<li id="menu-item-1127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1127"><a href="http://investor.hbc.com/contactBoard.cfm">Contact the Board</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1129"><a href="http://investor.hbc.com/financials.cfm">Financial Information</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1923"><a href="http://www.sedar.com/DisplayProfile.do?lang=EN&amp;issuerType=03&amp;issuerNo=00033738">SEDAR Filings</a></li>
+			<li id="menu-item-1134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1134"><a href="http://investor.hbc.com/results.cfm">Quarterly / Annual Results</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138"><a href="http://investor.hbc.com/stockquote.cfm">Stock Information</a>
+		<ul class="sub-menu">
+			<li id="menu-item-1141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141"><a href="http://investor.hbc.com/stocklookup.cfm">Historic Lookup</a></li>
+			<li id="menu-item-1146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1146"><a href="http://investor.hbc.com/dividends.cfm">Dividends History</a></li>
+			<li id="menu-item-1151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1151"><a href="http://investor.hbc.com/analysts.cfm">Analyst Coverage</a></li>
+		</ul>
+</li>
+		<li id="menu-item-1154" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1154"><a href="http://investor.hbc.com/faq.cfm">Investor FAQs</a></li>
+		<li id="menu-item-1155" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1155"><a href="http://investor.hbc.com/contactus.cfm">Contact Us</a></li>
+	</ul>
+</li>
+	<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="http://www3.hbc.com/hbc/media-centre/">Media Centre</a>
+	<ul class="sub-menu">
+		<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a href="http://www3.hbc.com/hbc/media-centre/press-releases/">Press Releases</a></li>
+		<li id="menu-item-2855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2855"><a href="http://investor.hbc.com/releases.cfm">IR Press Releases</a></li>
+		<li id="menu-item-360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a href="http://www3.hbc.com/hbc/media-centre/product-recalls/">Product Recalls</a></li>
+		<li id="menu-item-361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a href="http://www3.hbc.com/hbc/media-centre/filming-requests/">Filming Requests</a></li>
+		<li id="menu-item-2241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2241"><a href="http://www3.hbc.com/hbc/media-centre/image-reproduction-and-permission-policy/">Image Reproduction and Permission Policy</a></li>
+	</ul>
+</li>
+	<li id="menu-item-213" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a target="_blank" href="http://www3.hbc.com/hbc/careers/">Careers</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="http://www3.hbc.com/hbc/vendors/">Vendors</a>
+	<ul class="sub-menu">
+		<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="http://www3.hbc.com/hbc/vendors/about-hbc-merchandising/">About HBC Merchandising</a></li>
+		<li id="menu-item-357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357"><a href="http://www3.hbc.com/hbc/vendors/vendor-guides/">Vendor Guides</a></li>
+		<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="http://www3.hbc.com/hbc/vendors/social-compliance-policy/">Social Compliance Policy</a></li>
+		<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="http://www3.hbc.com/hbc/vendors/quality-assurance-policy/">Quality Assurance Policy</a></li>
+		<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="http://www3.hbc.com/hbc/vendors/starting-the-process/">Starting the Process</a>
+		<ul class="sub-menu">
+			<li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="http://www3.hbc.com/hbc/vendors/starting-the-process/vendor-form/">Vendor Form</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-351"><a href="http://www3.hbc.com/hbc/hbc-foundation/">Social Responsibility</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2848" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2848"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-foundation-2/">HBC Foundation</a></li>
+		<li id="menu-item-2849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2849"><a href="http://www3.hbc.com/hbc/hbc-foundation/partners/">HBC Foundation Partners</a></li>
+		<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://www3.hbc.com/hbc/hbc-foundation/annual-golf-tournament/">HBC Charity Golf Tournament &#038; Spa</a></li>
+		<li id="menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-history-foundation/">HBC History Foundation</a>
+		<ul class="sub-menu">
+			<li id="menu-item-347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-history-foundation/partners/">Partners</a></li>
+		</ul>
+</li>
+		<li id="menu-item-2850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2850"><a href="http://www3.hbc.com/hbc/hbc-foundation/lt-foundation/">L&#038;T Foundation</a></li>
+		<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="http://www3.hbc.com/hbc/hbc-foundation/social-responsibility/">CSR Reporting</a></li>
+		<li id="menu-item-2612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2612"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-manufacturing-list/">HBC Manufacturing List</a></li>
+		<li id="menu-item-2851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2851"><a href="http://www3.hbc.com/hbc/hbc-foundation/california-transparency-in-supply-chains-act/">California Transparency in Supply Chains Act</a></li>
+	</ul>
+</li>
+	<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="http://www3.hbc.com/hbc/financial-services/">Financial Services</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="http://www3.hbc.com/hbc/credit-rewards/">Credit &#038; Rewards</a>
+	<ul class="sub-menu">
+		<li id="menu-item-342" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/hbc-credit-card/">Hudson’s Bay Credit Card</a></li>
+		<li id="menu-item-341" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/lord-taylor-credit-card/">Lord &#038; Taylor Credit Card</a></li>
+		<li id="menu-item-1196" class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/rewards/">Hudson’s Bay Rewards</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>            			<div class="right-nav">				
+				<div class="clear"></div>
+				<div class="top_search">
+				<div id="search-2" class="widget widget_search"><h4 style="display:none;">Search</h4><!--Searchbox-->
+<form method="get" id="searchbox" action="http://www3.hbc.com/">
+    <fieldset>
+        <input type="text" name="s" id="s" value="Search HBC.com" onfocus="if(this.value=='Search HBC.com')this.value='';" onblur="if(this.value=='')this.value='Search HBC.com';"/>
+    </fieldset>
+</form>
+<!--Searchbox--></div><div class="clear"></div>				</div>	
+				
+			</div>
+             <div class="clear"></div>
+         </div>
+
+       <div class="mobilenavcontainer"> 
+               <a id="jump" href="#mobilenav" class="scroll">Navigation Menu</a>
+       <div class="clear"></div>
+        <div class="mobilenavigation">
+                        <ul id="mobilenav"><li id="back"><a href="#top" class="menutop">Hide Navigation</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item menu-item-78"><a href="http://www3.hbc.com/">MENU</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"><a href="http://www3.hbc.com/hbc/about-us/">About Us</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215"><a href="http://www.hbcheritage.ca/hbcheritage/home">Our History</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1179"><a href="#">Stores</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-226"><a href="http://www.thebay.com">Hudson&#8217;s Bay</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227"><a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor">Lord &#038; Taylor</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-228"><a href="http://www.homeoutfitters.com/en/index.html">Home Outfitters</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1110"><a href="http://investor.hbc.com/">Investor Relations</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-998"><a href="http://investor.hbc.com/releases.cfm">Press Releases</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1118"><a href="http://investor.hbc.com/events.cfm">Events and Presentations</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1120"><a href="http://investor.hbc.com/governance.cfm">Corporate Governance</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1121"><a href="http://investor.hbc.com/management.cfm">Leadership</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123"><a href="http://investor.hbc.com/directors.cfm">Board of Directors</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1124"><a href="http://investor.hbc.com/committees.cfm">Committee Composition</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1127"><a href="http://investor.hbc.com/contactBoard.cfm">Contact the Board</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1129"><a href="http://investor.hbc.com/financials.cfm">Financial Information</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1923"><a href="http://www.sedar.com/DisplayProfile.do?lang=EN&amp;issuerType=03&amp;issuerNo=00033738">SEDAR Filings</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1134"><a href="http://investor.hbc.com/results.cfm">Quarterly / Annual Results</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1138"><a href="http://investor.hbc.com/stockquote.cfm">Stock Information</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141"><a href="http://investor.hbc.com/stocklookup.cfm">Historic Lookup</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1146"><a href="http://investor.hbc.com/dividends.cfm">Dividends History</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1151"><a href="http://investor.hbc.com/analysts.cfm">Analyst Coverage</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1154"><a href="http://investor.hbc.com/faq.cfm">Investor FAQs</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1155"><a href="http://investor.hbc.com/contactus.cfm">Contact Us</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="http://www3.hbc.com/hbc/media-centre/">Media Centre</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a href="http://www3.hbc.com/hbc/media-centre/press-releases/">Press Releases</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2855"><a href="http://investor.hbc.com/releases.cfm">IR Press Releases</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-360"><a href="http://www3.hbc.com/hbc/media-centre/product-recalls/">Product Recalls</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-361"><a href="http://www3.hbc.com/hbc/media-centre/filming-requests/">Filming Requests</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2241"><a href="http://www3.hbc.com/hbc/media-centre/image-reproduction-and-permission-policy/">Image Reproduction and Permission Policy</a></li>
+	</ul>
+</li>
+	<li class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a target="_blank" href="http://www3.hbc.com/hbc/careers/">Careers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-212"><a href="http://www3.hbc.com/hbc/vendors/">Vendors</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="http://www3.hbc.com/hbc/vendors/about-hbc-merchandising/">About HBC Merchandising</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-357"><a href="http://www3.hbc.com/hbc/vendors/vendor-guides/">Vendor Guides</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="http://www3.hbc.com/hbc/vendors/social-compliance-policy/">Social Compliance Policy</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="http://www3.hbc.com/hbc/vendors/quality-assurance-policy/">Quality Assurance Policy</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="http://www3.hbc.com/hbc/vendors/starting-the-process/">Starting the Process</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="http://www3.hbc.com/hbc/vendors/starting-the-process/vendor-form/">Vendor Form</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-351"><a href="http://www3.hbc.com/hbc/hbc-foundation/">Social Responsibility</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2848"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-foundation-2/">HBC Foundation</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2849"><a href="http://www3.hbc.com/hbc/hbc-foundation/partners/">HBC Foundation Partners</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://www3.hbc.com/hbc/hbc-foundation/annual-golf-tournament/">HBC Charity Golf Tournament &#038; Spa</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-history-foundation/">HBC History Foundation</a>
+		<ul class="sub-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-history-foundation/partners/">Partners</a></li>
+		</ul>
+</li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2850"><a href="http://www3.hbc.com/hbc/hbc-foundation/lt-foundation/">L&#038;T Foundation</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="http://www3.hbc.com/hbc/hbc-foundation/social-responsibility/">CSR Reporting</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2612"><a href="http://www3.hbc.com/hbc/hbc-foundation/hbc-manufacturing-list/">HBC Manufacturing List</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2851"><a href="http://www3.hbc.com/hbc/hbc-foundation/california-transparency-in-supply-chains-act/">California Transparency in Supply Chains Act</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="http://www3.hbc.com/hbc/financial-services/">Financial Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="http://www3.hbc.com/hbc/credit-rewards/">Credit &#038; Rewards</a>
+	<ul class="sub-menu">
+		<li class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-342"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/hbc-credit-card/">Hudson’s Bay Credit Card</a></li>
+		<li class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/lord-taylor-credit-card/">Lord &#038; Taylor Credit Card</a></li>
+		<li class="ppr-new-window menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a target="_blank" href="http://www3.hbc.com/hbc/credit-rewards/rewards/">Hudson’s Bay Rewards</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>                    </div> 
+
+        <div class="clear"></div>
+      </div>
+
+        <!--End Navigation-->
+    <div class="clear"></div>
+	
+	<!-- Add breadcrumb code -->
+	<div class="breadcrumbs">
+    <!-- Breadcrumb NavXT 4.2.0 -->
+	</div>
+<div class="top"> <a href="#">Scroll to top</a>
+	<!-- End breadcrumb -->	
+</div>
+    <div class="clear"></div>
+    <div class="scroll">
+        <p>
+            Top        </p>
+    </div>
+</div>
+<!-- Start Mainbody
+  ================================================== -->
+<div class="mainbody "><div class="container  featuredcontainer clearfix ">
+    <div class="featured articlecontainer" id="isofeatured">
+
+        		        
+                    		
+                    <a href="http://www3.hbc.com/aboutus/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/about-hbc1-300x300.jpg" alt="About Us" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/about-hbc1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/investorrelations/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/investor-relations1-300x300.jpg" alt="Investor Relations" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/investor-relations1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/mediacentre/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/media-centre1-300x300.jpg" alt="Media Centre" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/media-centre1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/socialresponsibility/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/social-responsibility1-300x300.jpg" alt="Social Responsibility" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/social-responsibility1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/careers/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/careers1-300x300.jpg" alt="Careers" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/careers1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/creditandrewards/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/credit-rewards1-300x300.jpg" alt="Credit &#038; Rewards" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/credit-rewards1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/financialservices/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/financial-services1-300x300.jpg" alt="Financial Services" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/financial-services1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+        		        
+                    		
+                    <a href="http://www3.hbc.com/vendors/" class="one_col  isobrick">
+                <div class="featuredinner">
+                    
+                        <h2>
+                         
+                       
+                            <span class="date">January 22, 2013 | Hudson Admin</span></h2>
+                            <div class="featuredoverlay"></div>
+                            <div >
+            					
+                                    <img src="http://www3.hbc.com/wp-content/uploads/2013/05/vendors1-300x300.jpg" alt="Vendors" title="" class="scale-with-grid" data-thumb="http://www3.hbc.com/wp-content/uploads/2013/05/vendors1-300x300.jpg"/>
+                                   
+                                   
+            					  
+                             </div>                    
+                    </div>
+                    </a>
+                    
+                    
+                
+		<div class="clear"></div>		
+    </div>
+		
+</div>
+	<div class="maincontent noborder full">
+			</div>
+	
+
+</div>
+</div>
+<!-- Close Mainbody and Sitecontainer and start footer
+  ================================================== -->
+<div class="clear"></div>
+<div id="footer">
+    <div class="container clearfix">
+        <div class="footerwidgetwrap">
+            <div class="footerwidget1"><div id="text_icl-12" class="widget widget_footer widget_text_icl">        <div class="textwidget"></div>
+</div><div class="clear"></div></div>
+            <div class="footerwidget2"><div id="text_icl-7" class="widget widget_footer widget_text_icl">        <div class="textwidget"><p>
+<a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay" target="_blank" ><img src="/wp-content/uploads/2013/09/theBay_logo.gif"/></a>
+<a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor" target="_blank"><img src="/wp-content/uploads/2013/09/LordAndTaylor_logo.gif"/></a>
+<a href="http://www.saksfifthavenue.com/Entry.jsp?catID=0&bmUID=k844Vt5" target="_blank"><img src="/wp-content/uploads/2013/09/Saks_logo.gif"/></a>
+<a href="http://www.saksoff5th.com/" target="_blank"><img src="/wp-content/uploads/2014/06/saksOFF5TH.gif"/></a>
+<a href="http://www.homeoutfitters.com/en/index.html" target="_blank"><img src="/wp-content/uploads/2013/09/HomeOutfitters_logo.gif"/></a>
+</p>
+<p style="margin:36px 10px 0 0;color:#8c8c8c;font-size:11px;">Hudson's Bay Company (HBC) - Copyright 2013 All rights reserved.<br/><br/>
+<a href="http://www3.hbc.com/terms-conditions/">Website Legal Terms and Conditions</a> | <a href="http://www3.hbc.com/privacy/">Privacy Policy</a><br/>
+<a href="http://www3.hbc.com/wp-content/uploads/2013/02/2012-12-17-AODA-HBC-Customer-Service-Policy-Statement-EN1.pdf">Accessibility for Ontarians with Disabilities Act</a>
+</p></div>
+</div><div class="clear"></div></div>
+            <div class="footerwidget3"><div id="text_icl-9" class="widget widget_footer widget_text_icl">        <div class="textwidget"></div>
+</div><div class="clear"></div></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+			<div class="mobilebottom">
+				<div id="text_icl-4" class="widget widget_custom widget_text_icl">        <div class="textwidget"><div id="mobile_nav">
+<a id="mobile_search" href="http://www3.hbc.com/#"><img src="/wp-content/uploads/2013/02/HBC-mobileNAV_01.gif"></a>
+<a href="http://www3.hbc.com/hbc/careers/"><img src="/wp-content/uploads/2013/02/HBC-mobileNAV_02.gif"></a>
+<a id="mobile_shop" href="http://www3.hbc.com/#"><img src="/wp-content/uploads/2013/02/HBC-mobileNAV_03.gif"></a>
+<a href="http://www3.hbc.com/hbc/about-us/"><img src="/wp-content/uploads/2013/02/HBC-mobileNAV_04.gif"></a>
+<a href="http://www3.hbc.com/site-map/"><img src="/wp-content/uploads/2013/02/HBC-mobileNAV_05.gif"></a>
+</div></div>
+</div><div class="clear"></div>			
+				<div class="clear"></div>
+									<div class="mobileshopcontainer">
+						<div class="mobileshopbutton" align="center">
+							<div class="mobileshopclosebutton">
+								<img src="/wp-content/uploads/2013/02/CloseButton.png">
+							</div>
+							<div class="clear"></div>
+							<a href="http://www.thebay.com/" target="_blank">
+								<img src="/wp-content/uploads/2013/03/HbcCorp-SHOP_03.jpg">
+							</a>
+							<a href="http://www.lordandtaylor.com/" target="_blank">
+								<img src="/wp-content/uploads/2013/02/HbcCorp-SHOP_06.jpg">
+							</a>
+							<a href="http://www.homeoutfitters.com/" target="_blank">
+								<img src="/wp-content/uploads/2013/02/HbcCorp-SHOP_08.jpg">
+							</a>
+						</div>
+					</div>
+				
+				<div class="mobilesearchbutton" align="center">					
+					<div class="searchbox">
+						<div class="mobilesearchclosebutton">
+							<img src="/wp-content/uploads/2013/02/CloseButton.png">
+						</div>
+						<div class="clear"></div>
+						<div id="search-2" class="widget widget_search"><h4 style="display:none;">Search</h4><!--Searchbox-->
+<form method="get" id="searchbox" action="http://www3.hbc.com/">
+    <fieldset>
+        <input type="text" name="s" id="s" value="Search HBC.com" onfocus="if(this.value=='Search HBC.com')this.value='';" onblur="if(this.value=='')this.value='Search HBC.com';"/>
+    </fieldset>
+</form>
+<!--Searchbox--></div><div class="clear"></div>					</div>
+				</div>				
+			</div>	
+      </div>
+</div>
+
+	
+
+<!-- Theme Hook -->
+<script type='text/javascript' src='http://www3.hbc.com/wp-content/themes/extranews/js/custom.js?ver=1.3.4'></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7525846-3']);
+  _gaq.push(['_setDomainName', 'hbc.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Close Site Container
+  ================================================== -->
+</body>
+</html>
