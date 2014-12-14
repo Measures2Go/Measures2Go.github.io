@@ -3,7 +3,7 @@ title: Mini Mental State Exam
 layout: questionnaire
 ---
 <script>
-	var data = 
+var data = 
 	[
 	
 		// Item 1
@@ -35,7 +35,6 @@ layout: questionnaire
 				'(0) 0/5 correct'
 			]
 		},
-
 		// Item 3
 		{
 			title: 'Naming objects',
@@ -48,7 +47,6 @@ layout: questionnaire
 				'(0) Patient names 0/3 objects correctly  '
 			]
 		},
-
 		// Item 4
 		{
 			title: 'Backwards counting or spelling',
@@ -63,7 +61,6 @@ layout: questionnaire
 				'(0) 0/5 sequential numbers or letters responded correctly.'
 			]
 		},
-
 		// Item 5
 		{
 			title: 'Recall',
@@ -76,7 +73,6 @@ layout: questionnaire
 				'(0) 0/3 objects recalled correctly  '
 			]
 		},
-
 		// Item 6
 		{
 			title: 'Common Object Identification',
@@ -86,32 +82,6 @@ layout: questionnaire
 				'(2) Patient identifies both objects correctly. ',
 				'(1) Patient identifies one object correctly only.  ',
 				'(0) Patient does not identify either object correctly. '
-			]
-		},
-
-		// Item 7
-		{
-			title: 'Step around obstacles',
-			instructions: 'Begin walking at normal speed. When you come to the first cone (about 6 feet away), walk around the right side of it. When you come to the second cone (6 feet past first cone), walk around it to the left. ',
-			options:
-			[
-				'(3) Normal: Is able to walk around cones safely without changing gait speed; no evidence of imbalance. ',
-				'(2) Mild Impairment: Is able to step around both cones, but must slow down and adjust steps to clear cones. ',
-				'(1) Moderate Impairment: Is able to clear cones but must significantly slow speed to accomplish task, or requires verbal cueing.  ',
-				'(0) Severe Impairment: Unable to clear cones, walks into one or both cones, or requires physical assistance.  '
-			]
-		},
-
-		// Item 8
-		{
-			title: 'Steps',
-			instructions: 'Walk up these stairs as you would at home, i.e. using the railing if necessary. At the top, turn around and walk down. ',
-			options:
-			[
-				'(3) Normal: Alternating feet, no rail. ',
-				'(2) Mild Impairment: Alternating feet, must use rail. ',
-				'(1) Moderate Impairment: Two feet to a stair, must use rail.  ',
-				'(0) Severe Impairment: Cannot do safely.  '
 			]
 		},
 	];
@@ -145,5 +115,4 @@ layout: questionnaire
 				$('#summary').text(val + ': This score is below that of a safe ambulator but above that of an elderly patient at fall risk. ');
 		});
 	});
-
 </script>
