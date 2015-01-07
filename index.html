@@ -12,8 +12,14 @@ title: Measures2Go
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
 	<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+<!-- Start ShareThis-->
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_linkedin_large' displayText='LinkedIn'></span>
+<span class='st_pinterest_large' displayText='Pinterest'></span>
+<span class='st_email_large' displayText='Email'></span>
+<!-- End ShareThis-->
+
 </head>
 <body>
 <style> {background-color: e9e9e9;}
@@ -35,11 +41,13 @@ h3 {text-align: center;}
 			{% endfor %}
         </div><!-- /content -->
     </div><!-- /page -->
-    <script type="text/javascript">stLight.options({publisher: "f9af0431-4046-4b95-bf84-0cb6a0c8044a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-<script>
-var options={ "publisher": "f9af0431-4046-4b95-bf84-0cb6a0c8044a", "logo": { "visible": true, "url": "", "img": "http://sd.sharethis.com/disc/images/demo_logo.png", "height": 45}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "linkedin", "email", "pinterest"]}};
-var st_bar_widget = new sharethis.widgets.sharebar(options);
-</script>
+   
+   <!-- ShareThis start-->
+   <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "f9af0431-4046-4b95-bf84-0cb6a0c8044a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<!-- ShareThis end-->
+
 
 </body>
 </html>
