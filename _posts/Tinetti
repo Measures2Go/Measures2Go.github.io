@@ -1,0 +1,221 @@
+<script>
+	var data = 
+	[
+	
+		// Item 1
+		{
+			title: 'Sitting Balance',
+			instructions: 'Subject is seated in hard, armless chair. The following maneuvers are tested. ',
+			options:
+			[
+				'(0) Leans or slides in chair ',
+				'(1) Steady, safe '
+			]
+		},
+	
+		// Item 2
+		{
+			title: 'Arises',
+			instructions: 'Subject is seated in hard, armless chair. The following maneuvers are tested.  ',
+			options:
+			[
+				'(0) Unable without help ',
+				'(1) Able, uses arms to help ',
+				'(2) Able without using arms ',
+				
+			]
+		},
+		// Item 3
+		{
+			title: 'Attempts to arise',
+			instructions: Subject is seated in hard, armless chair. The following maneuvers are tested. ',
+			options:
+			[
+				'(0) Unable without help ',
+				'(1) Able, requires >1 attempt ',
+				'(2) Able to rise, 1 attempt ',
+				
+			]
+		},
+		// Item 4
+		{
+			title: 'Immediate standing balance (first 5 seconds) ',
+			instructions: 'none ',
+			options:
+			[
+				'(0) Unsteady (swaggers, moves feet, trunk sway) ',
+				'(1) Steady but uses walker or other support ',
+				'(2) Steady without walker or other support  ',
+	
+			]
+		},
+		// Item 5
+		{
+			title: 'Standing Balance',
+			instructions: 'none ',
+			options:
+			[
+				'(0) Unsteady ',
+				'(1) Steady but wide stance (medial heels >4 inches apart) and uses cane or other support ',
+				'(2) Narrow stance without support ',
+				
+			]
+		},
+		// Item 6
+		{
+			title: 'Nudged',
+			instructions: 'Subject at max position with feet as close together as possible, examiner pushes lightly on subject's sternum with palm of hand 3 times ',
+			options:
+			[
+				'(0) Begins to fall ',
+				'(1) Staggers, grabs, catches self ',
+				'(2) Steady  ',
+
+			]
+		},
+		// Item 7
+		{
+			title: 'Eyes closed',
+			instructions: 'At maximum position with feet as close together as possible ',
+			options:
+			[
+				'(0) Unsteady ',
+				'(1) Steady ',
+				
+			]
+		},
+		// Item 8a
+		{
+			title: 'Turning 360 degrees',
+			instructions: 'none ',
+			options:
+			[
+				'(0) Discontinuous steps ',
+				'(1) Continuous steps ',
+			]
+		},
+
+// Item 8b
+		{
+			title: 'Turning 360 degrees',
+			instructions: 'none ',
+			options:
+			[
+				'(0) Unsteady (grabs, swaggers) ',
+				'(1) Steady ',
+			]
+		},
+// Item 9
+		{
+			title: 'Sitting Down',
+			instructions: 'To hard, armless chair',
+			options:
+			[
+				'(0) Unsafe (misjudged distance, falls into chair)',
+				'(1) Uses arms or not a smooth motion',
+				'(2) Safe, smooth motion ',
+			]
+		},
+	
+		// Item 10
+		{
+			title: 'Initiation of gait (immediately or after told to 'go'',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Any hesitancy or multiple attempts to start ',
+				'(1) No hesitancy ',
+			]
+		},
+		// Item 11a
+		{
+			title: 'Right step length',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Right swing foot does not pass left stance foot with step ',
+				'(1) Right foot passes left stance foot ',
+			]
+		},
+		// Item 11b
+		{
+			title: 'Right step height',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Right foot does not clear floor completely with step ',
+				'(1) Right foot completely clears floor',
+			]
+		},
+		// Item 11c
+		{
+			title: 'Left step length',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Left swing foot does not pass right stance foot with step ',
+				'(1) Left foot passes right stance foot ',
+			]
+		},
+		// Item 11d
+		{
+			title: 'Left step height',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Left foot does not clear floor completely with step ',
+				'(1) Left foot completely clears floor',
+			]
+		},
+		// Item 12
+		{
+			title: 'Step symmetry',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Right and left step length not equal (estimate) ',
+				'(1) Right and left step appear equal ',
+			]
+		},
+		// Item 13
+		{
+			title: 'Step continuity',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Stopping or discontinuity between steps ',
+				'(1) Steps appear continuous ',
+			]
+		},
+		// Item 14
+		{
+			title: 'Path',
+			instructions: 'Estimate deviation in relation to floor tiles, 12-inch diameter; observe excursion of 1 foot over about 10 feet of the course). ',
+			options:
+			[
+				'(0) Marked deviation ',
+				'(1) Mild/moderate deviation or uses walking aid ',
+				'(2) Straight without walking aid ',
+			]
+		},
+		// Item 15
+		{
+			title: 'Trunk',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Marked sway or uses walking aid ',
+				'(1) No sway but flexion of knees or back, or spreads arms out while walking ',
+				'(2) No sway, no flexion, no use of arms, and no use of walking aid  ',
+			]
+		},
+		// Item 16
+		{
+			title: 'Walking Stance',
+			instructions: 'Subject stands with examiner, walks down hallway or across the room, first at "usual" pace, then back at "rapid, but safe" pace (using usual walking aids). ',
+			options:
+			[
+				'(0) Heels apart ',
+				'(1) Heels almost touching while walking ',
+			]
+		},
